@@ -7,7 +7,8 @@ namespace ProjectEuler.UI.ConsoleApp
         static void Main(string[] args)
         {
             var startTime = DateTime.Now;
-            var answer = new Business.Problem11().Solve();
+            var problem11 = new Business.Problem11();
+            var answer = problem11.Solve();
             var stopTime = DateTime.Now;
             var duration = stopTime - startTime;
             Console.WriteLine("The greatest product of 4 entries, is {0}", answer);
