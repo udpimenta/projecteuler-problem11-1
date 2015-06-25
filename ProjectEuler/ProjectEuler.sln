@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectEuler.Business", "Pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectEuler.UI.WindowsFormsApp", "ProjectEuler.UI.WindowsFormsApp\ProjectEuler.UI.WindowsFormsApp.csproj", "{2178FD7F-BE90-468E-8D68-C4231D322DD5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectEuler.UI.AspNetMVC", "ProjectEuler.UI.AspNetMVC\ProjectEuler.UI.AspNetMVC.csproj", "{251FA9A0-BAE1-498D-B107-29674730EE52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{2178FD7F-BE90-468E-8D68-C4231D322DD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2178FD7F-BE90-468E-8D68-C4231D322DD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2178FD7F-BE90-468E-8D68-C4231D322DD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{251FA9A0-BAE1-498D-B107-29674730EE52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{251FA9A0-BAE1-498D-B107-29674730EE52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{251FA9A0-BAE1-498D-B107-29674730EE52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{251FA9A0-BAE1-498D-B107-29674730EE52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,5 +45,6 @@ Global
 		{FD0F6091-9260-489A-84CC-3D5C3BFB1363} = {157D254B-6059-47B6-8EF2-FF9436254D54}
 		{A7A486A8-9836-49DF-8ECB-98A67CECA677} = {22E29639-ECDC-4814-94C0-04154D42293B}
 		{2178FD7F-BE90-468E-8D68-C4231D322DD5} = {157D254B-6059-47B6-8EF2-FF9436254D54}
+		{251FA9A0-BAE1-498D-B107-29674730EE52} = {157D254B-6059-47B6-8EF2-FF9436254D54}
 	EndGlobalSection
 EndGlobal
