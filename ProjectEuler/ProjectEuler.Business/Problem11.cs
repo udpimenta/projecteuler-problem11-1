@@ -9,7 +9,7 @@ namespace ProjectEuler.Business
     {
         #region Public Methods
 
-        /// <summary></summary>
+        /// <summary>Solves Euler's Problem #11</summary>
         /// <param name="inputGrid"></param>
         /// <returns>The greatest product of four adjacent numbers in the same direction (up, down, left, right, or diagonally)</returns>
         public int Solve(string inputGrid)
@@ -17,7 +17,7 @@ namespace ProjectEuler.Business
             return Solve(ReadInputFromString(inputGrid));
         }
 
-        /// <summary></summary>
+        /// <summary>Solves Euler's Problem #11</summary>
         /// <param name="inputGrid"></param>
         /// <returns>The greatest product of four adjacent numbers in the same direction (up, down, left, right, or diagonally)</returns>
         public int Solve(int[,] inputGrid)
@@ -51,7 +51,7 @@ namespace ProjectEuler.Business
             return greatest;
         }
 
-        /// <summary></summary>
+        /// <summary>Solves Euler's Problem #11</summary>
         /// <param name="fileName">The file name where the array in string format is in</param>
         /// <returns>The greatest product of four adjacent numbers in the same direction (up, down, left, right, or diagonally)</returns>
         public int SolveFromFileName(string filename)
