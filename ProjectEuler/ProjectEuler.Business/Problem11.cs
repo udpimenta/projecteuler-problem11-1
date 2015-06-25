@@ -68,9 +68,9 @@ namespace ProjectEuler.Business
         /// <returns>2D array of int[,]</returns>
         private int[,] ReadInputFromString(string inputGrid)
         {
-            var rows = inputGrid.Split('\n');
-            var rowOne = rows[0].Split(' ').Select(int.Parse).ToArray();
-
+            inputGrid = inputGrid.Replace(",", "");
+            inputGrid = inputGrid.Replace(";", "");
+            inputGrid = inputGrid.Replace("\r", "");
             return To2D<int>(inputGrid
                 .Split('\n')
                 .Select(t => t.Split(' ')

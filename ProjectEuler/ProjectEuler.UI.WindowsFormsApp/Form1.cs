@@ -46,7 +46,7 @@ namespace ProjectEuler.UI.WindowsFormsApp
             var inputGrid = txtInputGrid.Text;
             if (string.IsNullOrEmpty(inputGrid))
             {
-                MessageBox.Show("Favor inserir os valores");
+                MessageBox.Show("Please insert values for grid");
                 txtInputGrid.Focus();
                 return;
             }
